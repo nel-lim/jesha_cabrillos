@@ -1,0 +1,371 @@
+body{
+    font-family: 'Concert One';
+    background-color: #A47E3B;
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+    display: block;
+}
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+    display: block;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+.clearfix{
+    overflow: auto; 
+}
+header .header_container{
+    height: 90px;
+    overflow: hidden;
+    position: relative;
+}
+header .header_container .header_logo{
+    position: absolute;
+    top: 30%;
+    height: 40px;
+    transform: translateY(-50%);
+    margin-left: 180px;
+}
+nav{
+    text-align: center;
+    height: 100%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 0;
+    position: relative;
+    left: 55px;
+}
+nav ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    color:  #61481C;
+    padding: 10px;
+    margin: 30px;
+}
+nav ul li a:hover{
+    color: #fff;
+}
+nav span{
+   font-size: 30px;
+   font-display: center;
+   padding: 0 20px;
+   float: right;
+   position: relative;
+   right: 150px;
+   margin: 10px 0 0 10px;
+   color: #61481C;
+}
+nav span:hover{
+    color: white;
+}
+.hero_expanded{
+    background: url("images/Hero.jpg") no-repeat top / cover;
+    position: absolute;
+    height: 714px;
+    width: 100%;
+    top: 100px;
+}
+.hero_expanded:before{
+    content: "";
+    width: 100%;
+    height: 714px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3) ;
+}
+#hero{
+    position: relative;
+    background: transparent;
+    height: 500px;
+}
+#hero .site_name_tag{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+#hero .site_name_tag h1{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Concert One';
+    color: #fff;
+    line-height: 47px;
+    text-transform: uppercase;
+    text-align: left;
+    width: 515px;
+    height: 210px;
+    margin: 190px 0 0 50px;
+}
+#hero .site_name_tag a{
+    background: #61481C;
+    width: 200px;
+    color:#1B1823;
+    font-size: 18px;
+    font-family: 'Concert one';
+    display: block;
+    line-height: 45px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+#hero .site_name_tag a:hover{
+    background: rgb(116, 116, 194);
+    color: #fff;
+}
+.blank_module{
+    padding: 50px 0;
+}
+.blank_module h2{
+    font-size: 70px;
+    font-family: 'Concert One';
+    color: white;
+    text-transform: uppercase;
+    height: 50px;
+    margin-top: 150px;
+    margin-left: 40px;
+    text-align: center;
+}
+.middle_boxes_container{
+    width: 100%;
+}
+.mid_box{
+	width: 200px;
+	height: 415px;
+	display: inline-block;
+	margin: 0px -195px 0 300px;
+}
+.mid_box img{
+	width: 200px;
+	height: 300px;
+	display: inline-block; 
+}
+.mid_box:before{
+    content: "";
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.42) ;
+}
+.mid_box h2{
+    line-height: 28px;
+	font-size: 20px;
+    font-weight: 400;
+	font-family: 'Bubblegum Sans';
+	color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    margin: 130px 0 0 30px;
+}
+.mid_box h3{
+    line-height: 28px;
+	font-size: 20px;
+    font-weight: 400;
+	font-family: 'Bubblegum Sans';
+	color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    margin: 130px 0 0 50px;
+}
+.mid_box a{
+    font-family: 'Concert One';
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    margin: 270px 0 0 80px;
+}
+.blank_box{
+    height: 250px;
+    width: 100%;
+    background-color: #61481C;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 1355px;
+}
+.blank_module p{
+    margin: 20px 0 0 300px;
+    font-family: 'Concert One';
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.blank_box h2{
+    font-family: 'Concert One';
+    font-weight: 400;
+    color: #fff;
+    font-size: 150px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: -50px 0 0 300px;
+}
+.box{
+    width: 430px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: -20px 0 0 700px;
+}
+.box p{
+    margin: 15px 0 0 35px;
+}
+.box h4{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: right;
+    padding: 9px;
+    margin: 10px 0 0 35px;
+}
+.boxx{
+    height: 316px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 1650px;
+}
+.boxx h5{
+    font-family: 'Bentham';
+    font-size: 70px;
+    font-weight: 400 ;
+    color:#3A2A0E;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+.boxx h6{
+    font-family: 'Bentham';
+    font-size: 40px;
+    font-weight: 400 ;
+    color:#3A2A0E;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -120px;
+}
+.boxx a{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Concert One';
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #61481C;
+    width: 412px;
+    height: 69px;;
+    border-radius: 50px;
+    display: block;
+    margin-top: -70px;
+    margin-left: 503px;
+}
+.boxx:hover a{
+    color: #A47E3B;
+}
+.footer{
+    height: 218px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 1950px;
+    background-color: #3A2A0E;
+}
+.icontainerr{
+    position: relative;
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    margin-left: 200px;
+}
+.icons{
+    position: relative;
+}
+.icons li a span{  
+    font-size: 30px;
+    color: #fff;
+}
+.icons span:hover{
+    color: #A47E3B;
+}
+.footer p{
+    font-size: 20px;
+    text-transform: none;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.footer1 ul li{
+    text-align: center;
+}
+.footer1 ul{
+    margin-top: -95px;
+    margin-left: -300px;
+}
+.footer1 ul li a{
+    color: #fff;
+    font-size: 20px; 
+    position: relative;
+}
+.footer1 a:hover{
+    color: #61481C;
+}
+.footer2 ul li{
+    text-align: center;
+}
+.footer2 ul{
+    margin-top: -89px;
+    margin-left: 100px;
+}
+.footer2 ul li a{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+.footer2 a:hover{
+    color: #A47E3B;
+}
+.contaainer h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: -85px;
+}
+.txt input{
+    top:-50px;
+}
+input[type=text], input[type=password] {
+    position: relative;
+    margin: 8px 0px;
+    padding: 10px 15px;
+    display: flex ;
+    width: 200px;
+    text-transform: uppercase;
+    font-family: 'Concert One';
+    color: black;
+}
+.contaainer{
+    margin-left: 950px;
+}
+.last p{
+    margin: -50px 0 0 950px;
+}
+.lastt h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -25px;
+    margin-left: 1180px;
+    text-decoration: underline;
+}
+.lastt h6:hover{
+    color: #A47E3B;
+}
