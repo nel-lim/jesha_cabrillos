@@ -1,3 +1,6 @@
+/*instructor john nel lim 
+for final hands-on exam*/
+
 body{
     font-family: 'Concert One';
     background-color: #A47E3B;
@@ -7,9 +10,7 @@ body{
     display: block;
 }
 .container{
-    max-width: 1450px;
-    margin: 0 auto;
-    display: block;
+
 }
 a,li{
     text-decoration: none;
@@ -25,9 +26,7 @@ header .header_container{
 }
 header .header_container .header_logo{
     position: absolute;
-    top: 30%;
-    height: 40px;
-    transform: translateY(-50%);
+
     margin-left: 180px;
 }
 nav{
@@ -64,7 +63,7 @@ nav span:hover{
     color: white;
 }
 .hero_expanded{
-    background: url("images/Hero.jpg") no-repeat top / cover;
+    background: url("img/Hero.jpg") no-repeat top / cover;
     position: absolute;
     height: 714px;
     width: 100%;
@@ -130,6 +129,13 @@ nav span:hover{
     margin-left: 40px;
     text-align: center;
 }
+
+
+/*instructor john nel lim 
+for final hands-on exam*/
+
+
+
 .middle_boxes_container{
     width: 100%;
 }
@@ -270,7 +276,7 @@ nav span:hover{
 .boxx:hover a{
     color: #A47E3B;
 }
-.footer{
+{
     height: 218px;
     width: 100%;
     position: absolute;
@@ -369,3 +375,8 @@ input[type=text], input[type=password] {
 .lastt h6:hover{
     color: #A47E3B;
 }
+
+
+
+/*instructor john nel lim 
+for final hands-on exam*/
